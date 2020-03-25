@@ -1,0 +1,93 @@
+.label {
+  position: relative;
+}
+
+.container-seats {
+  display: flex;
+  position: relative;
+}
+
+.form__input-seats {
+  box-sizing: border-box;
+  height: 62px;
+  padding-left: 36px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  border: 1px solid lightblue;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.passenger-icon {
+  position: absolute;
+  top: 22px;
+  left: 10px;
+  z-index: 2;
+  color: grey;
+}
+
+.input-passengers {
+  max-width: 178px;
+}
+
+.passengers-active {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  margin-top: -3px;
+  width: 208px;
+  height: 180px;
+  padding: 10px;
+  top: 65px;
+  left: 0;
+  text-align: left;
+  background-color: #fff;
+  border-radius: 5px;;
+  border: 1px solid grey;
+}
+
+.title {
+  margin: 0;
+  display: inline-block;
+}
+
+.people-age {
+  display: flex;
+  justify-content: space-between;
+}
+
+.count-button {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  border-radius: 50%;
+  border-style: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  background-color: #3399ff;
+  outline: none;
+}
+
+.count-button:disabled {
+  background-color: lightblue;
+}
+
+.number {
+  display: inline-block;
+  width: 20px;
+  text-align: center;
+}
+
+.passengers {
+  display: none;
+}
+
+.passengers-select {
+  height: 26px;
+  padding-left: 5px;
+  font-size: 15px;
+}

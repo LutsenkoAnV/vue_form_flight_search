@@ -1,0 +1,36 @@
+.form__calendar {
+  position: relative;
+  height: 62px;
+  max-width: 167px;
+  margin-left: 1px;
+  margin-right: -2px;
+  padding-left: 30px;
+  border: 1px solid lightblue;
+}
+
+.vdp-datepicker__calendar{
+  position: relative;
+  z-index: 2;
+}
+
+.vdp-datepicker__clear-button {
+  position: absolute;
+  right: 15px;
+  top: 20px;
+}
+
+.calendar-container {
+  display: flex;
+}
+
+.calendar {
+  position: relative;
+}
+
+.calendar-icon {
+  position: absolute;
+  top: 22px;
+  left: 10px;
+  z-index: 2;
+  color: grey;
+}
